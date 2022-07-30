@@ -1,0 +1,1 @@
+console.log("You have to be in the parent folder to use-  sudo rm -rf .git -")
