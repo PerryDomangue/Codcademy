@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<br lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="./pp.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet" />
+	</head>
+	
+        
+			<div id="intro1">
+                <div id="container2">
+                <ul>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Skills</li>
+                    <li>Contact</li>
+                </ul>
+
+                </div>
+                
+			</div>
+            <div id="intro">
+                <div id="container1">
+                
+                    <h2>About Me</h2>
+                    <h4>Hi there! I'm Perry, the king of code, chiefly known for my work with NASA, and the Analytical Engine work that I did for them.
+
+                        I am quickly raise up through the ranks of programmers, and to have published a few projects of my own. My goal is to become a level four programmer someday.
+                        
+                        In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to spend my time learning about all the newest graphic design trends.
+                         I've been programing for almost a year. Fun fact, <span id="time">_</span> seconds!</h4>
+
+                </div>
+                
+				<div id="container">
+                    
+                    <img id="me" src="./photos/IMG_0233.jpg" alt="picture of myself1">
+                    <h3>Front End Developer</h3>
+                    <h2>Perry Domangue</h2>
+                </div>
+                
+			</div>
+            <div id="intro">
+                <div id="container4">
+                    <h2>Projects</h2>
+                    <h4>I have had the chance to work on a lot of fun projects and I have learned a lot in the process of finishing each project. I love the feeling of finally adding functionality to a project and I am always on the look out for more great project ideas.</h4>
+                    <ul>
+                        <li>Code Breaker</li>
+                        <li>Date Formater</li>
+                        <li>Sale Itemizer</li>
+                    </ul>
+                    <!---<h4>&#8594; Code Breaker </h4>
+                    <h4>&#8594; Date Formater</h4>
+                    <h4>&#8594; Sale Itemizer</h4>--->
+                    
+                    <div id="skills"> 
+                        <h2>Skills</h2>
+                        <img src="./photos/logos.png">                    
+                      
+                    </div>
+                    <br>
+                    <h2>Contact</h2>
+                    <h4>I hope you have enjoyed my portfolio. If you have have interesting project I'd love to hear about it. You can get entouch with me you may reach me on linked-in, email or github.</h4>
+                    <div id="container10">
+                    <img id="logo2" src="./photos/logo 2.png"> 
+                    </div>
+                    <br>
+                    <h2></h2>
+                    
+                </div>    
+			</div>
+            <br>
+            
+          
+           
+            <!--<h1 id="about">About Me</h1>
+                <h1 id="something">What Can I Build for You</h1>
+		</header>
+		<main>
+            <div id="splash">
+                <img id="background" src="./photos/jessy-smith-zFOm6KzA-7g-unsplash.jpg" alt="background image of desk with computer" />
+                <img id="self" src="./photos/IMG_0233.jpg" alt="picture of myself">
+                 <h1>Perry Domangue</h1> 
+                <h1 id="about">What Can I Build for You
+                </h1>
+                <h1 id="something">What Can I Build for You</h1>
+                <nav></nav>-->
+          
+        </main>
+        
+		<footer></footer>
+
+		<script>
+            const d = new Date("2022-01-02");
+            //let seconds = d.getSeconds();
+            let x = document.getElementById("time")
+            x.innerHTML = seconds
+
+            var seconds = 0;
+            var el = document.getElementById('time');
+
+            function incrementSeconds() {
+                seconds += 1;
+                el.innerText = " you have been on this page for " + seconds;
+}
+
+            var cancel = setInterval(incrementSeconds, 1000);
+
+          
+            
+        </script>
+	</body>
+</html>
